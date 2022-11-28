@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
 import Apple from './component/Apple.js'
 import Balala from './component/Balala.js'
+import RefDemo from './page/RefDemo';
+import RefBackDemo from './page/RefBackDemo'
+import AxiosDemo from './page/axios/AxiosDemo.js';
 
 function withMouse(WrappedComponent){
   class Mouse extends Component {
@@ -40,10 +42,13 @@ class App extends Component {
   render() {
     return (
      <div>
-       <MousePosition></MousePosition>
+       {/* <MousePosition></MousePosition> */}
        <Apple></Apple>
-       <Balala></Balala>
-       能否提交到远端111223344555
+       {/* <Balala></Balala> */}
+       <br/>
+       {/* <RefDemo a="1" b="adv"></RefDemo> */}
+      {/* <RefBackDemo></RefBackDemo> */}
+      <AxiosDemo></AxiosDemo>       
      </div>
     );
   }
