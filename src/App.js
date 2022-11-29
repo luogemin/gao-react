@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Home from './Home';
+import Count from './pages/Count';
 class App extends Component {
   render() {
     return (
        <div>
-         <Home></Home>
+         <Count></Count>
        </div>
     );
   }
